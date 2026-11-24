@@ -1,0 +1,12 @@
+{
+  "name": "peerfix",
+  "version": "0.1.0",
+  "description": "Explique les erreurs npm ERESOLVE et propose des corrections claires.",
+  "type": "module",
+  "bin": { "peerfix": "bin/peerfix.js" },
+  "files": ["bin", "src"],
+  "scripts": { "test": "node --test test/parse.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["npm", "eresolve", "peer-dependencies", "cli"],
+  "license": "MIT"
+}
